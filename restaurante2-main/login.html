@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="icon" href="img/acceso.png" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+        <h1>Inicia Sesión</h1>
+        <form id="login" action="validar.php" method="post">
+            <label>Usuario</label>
+            <input type="text" placeholder="Ingresa tu correo" id="email" required autofocus name="user">
+            <label>Contraseña</label>
+            <input type="password" placeholder="Ingresa tu contraseña" id="password" required name="password">
+            <input type="submit" value="Iniciar Sesión" id="enviar"> 
+        </form>
+    </div>
+</body>
+</html> 
